@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+
+}
+
+
+ul {
+    text-align: center;
+    list-style: inside;
+    padding: 45px;
+    margin: 100px;
+    height: 100px ;
+    width: 200px center;
+    background-color: rgb(206, 166, 197);
+    border: 1.3px solid rgb(56, 56, 51);
+
+  }
