@@ -106,6 +106,7 @@ h4{
     top: 60px;
     border-top: 472.5px solid #FFFFFF;
     border-right: 752px solid transparent;
+    transition: all .7s ease-in;
 }
 
 .vectorshape-2 {
@@ -116,4 +117,15 @@ h4{
     top: 65px;
     border-bottom: 467.5px solid #000000;
     border-right: 753px solid transparent;
+    transition: all .7s ease-in;
+}
+
+#shapes:hover .vectorshape-1 {
+    opacity: .5;
+    transform: translateY(-10px);
+}
+
+#shapes:hover .vectorshape-2 {
+    opacity: .5;
+    transform: translateY(-10px);
 }
