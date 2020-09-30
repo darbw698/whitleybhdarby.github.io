@@ -1,0 +1,119 @@
+body{
+    background-color: silver;
+}
+
+#nametag-container{
+    width: 753px;
+    height:473px;
+    background: #FFF1ED;
+    margin: 60px auto 0;
+    
+
+}
+
+h1,
+h2 {
+    text-align: left ;
+    color: #000000;
+    font-size: 64px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+
+
+}
+
+h1{
+    position: absolute;
+    width: 318px;
+    height: 95px;
+    left: 400px;
+    top: 136px;
+    
+}
+
+h2{
+    position: absolute;
+    width: 616px;
+    height: 95px;
+    left: 400px;
+    top: 183px;
+
+}
+
+#backcontainer{
+    width: 753px;
+    height:473px;
+    background: #FFF1ED;
+    margin: 60px auto 0;
+}
+
+#backcontainer:hover .barcode-container span {
+    opacity: .5;
+    transform: translateY(-10px);
+}
+
+h3,
+h4 {
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Tenali Ramakrishna', sans-serif;   
+    margin: 0;
+  
+}
+
+h3{
+    width:390px;
+    height:29px;
+    left: 505.3px;
+    top: 920.5px;
+}
+
+h4{
+    width:390px;
+    height:29px;
+    left: 505.3px;
+    top: 956.5px;
+}
+
+
+.barcode-container {
+    text-align:center;
+    position: absolute;
+    box-sizing: border-box;
+    width:426.5px;
+    height:115.5px;
+    left: 489.3px;
+    top: 768.5px;
+
+
+}
+.barcode-container span {
+    width:21px ;
+    height:115px ;
+    background: #000000;
+    border: 1px solid #000000;
+    display: inline-block;
+    transition: all .7s ease-in-out;
+}
+
+
+.vectorshape-1 {
+    position: absolute;
+    width: 0;
+    height:0;
+    left: 335.5px;
+    top: 60px;
+    border-top: 472.5px solid #FFFFFF;
+    border-right: 752px solid transparent;
+}
+
+.vectorshape-2 {
+    position: absolute;
+    width: 0;
+    height:0;
+    left: 335.5px;
+    top: 65px;
+    border-bottom: 467.5px solid #000000;
+    border-right: 753px solid transparent;
+}
