@@ -7,6 +7,7 @@ body{
     height:473px;
     background: #FFF1ED;
     margin: 60px auto 0;
+    position: absolute;
     
 
 }
@@ -40,10 +41,12 @@ h2{
 }
 
 #backcontainer{
+    position: absolute;
     width: 753px;
     height:473px;
     background: #FFF1ED;
     margin: 60px auto 0;
+    
 }
 
 #backcontainer:hover .barcode-container span {
