@@ -1,0 +1,136 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+#start-page {
+    width: 100%;
+    height: 90px;
+    background:black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}   
+
+nav {
+    width: 100%;
+    height: 70px;
+    background:black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+
+#logo {
+    color: crimson;
+    height: 100%;
+    width: 150px;
+    margin: 12px;
+    font-size: 50px;
+}
+
+#logo-home-page {
+    color: crimson;
+    height: 100%;
+    width: 150px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+#search-bar {
+    width: 50%;
+    height: 78%;
+    background: grey;
+}
+
+#manage-accounts {
+    width: 120px;
+    height: 80%;
+    background: grey;
+}
+
+aside {
+    flex-basis: 25%;
+    margin-top: 159px;
+    width: 98%;
+}
+
+aside ul {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+aside li {
+    background: rgb(255, 255, 255);
+    list-style: none;
+    padding: 33px;
+  
+}
+
+aside li div {
+    align-items: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+aside .name-tags{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10px;
+    opacity: .2;
+}
+
+aside li div .names{
+    align-items: flex-end;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#video-grid {
+    flex-basis: 75%;
+    padding: 10px;
+}
+
+#ad {
+    background: #1c5583;
+    width: 100%;
+    height: 786px;
+}
+
+.video-category {
+    margin-top: 10px;
+    background: #292727;
+    padding: 30px;
+}
+
+.video-category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.video-category header {
+    width: 10%;
+    height: 50px;
+    background: rgb(139, 131, 131);
+    margin-bottom: 25px;
+}
+
+.video-category ul {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.video-category li {
+    height: 150px;
+    background: rgb(11, 31, 78);
+}
