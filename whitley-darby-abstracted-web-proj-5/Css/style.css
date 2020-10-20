@@ -134,3 +134,13 @@ aside li div .names{
     height: 150px;
     background: rgb(11, 31, 78);
 }
+
+/* tablet */
+@media (max-width: 1047px) {
+
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+}
