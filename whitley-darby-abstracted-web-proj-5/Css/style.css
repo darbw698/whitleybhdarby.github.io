@@ -66,31 +66,39 @@ aside ul {
 }
 
 aside li {
-    background: rgb(255, 255, 255);
     list-style: none;
     padding: 4px;
-  
+    flex-basis: 15%;
 }
 
-aside li div {
+aside li .profile-pic {
     align-items: flex-end;
-    height: 100px;
-    width: 100px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    /* this is a trick to get containers that maintain aspect ratio */
+    padding-bottom: 100%; 
 }
 
-aside .name-tags{
+.names {
+    background: white;
+    opacity: .2;
+    height: 10px;
+    margin-top: 10px;
+}
+
+/* aside .name-tags{
     display: flex;
     justify-content: space-evenly;
     height: 10px;
     opacity: .2;
-}
+} */
 
-aside li div .names{
+/* aside li div .names{
     align-items: flex-end;
     height: 100px;
     width: 100px;
 }
-
+ */
 
 
 #video-grid {
@@ -165,9 +173,9 @@ aside li div .names{
         padding: 1px;
     }
 
-    aside li div {
+    /* aside li div {
         height: 100px;
-    }
+    } */
     #ad {
         width: 100%;
         height: 286px;
