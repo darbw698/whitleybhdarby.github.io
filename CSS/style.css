@@ -1,6 +1,6 @@
 #list-container{
     width: 753px;
-    height:473px;
+    height:673px;
 }
 
 h1{
@@ -15,7 +15,7 @@ ul {
     font-size: 26px;
     list-style: inside;
     padding: 45px;
-    height: 300px ;
+    height: 100px ;
     width: 200px center;
     background-color: rgb(206, 166, 197);
     border: 1.3px solid rgb(56, 56, 51);
