@@ -12,32 +12,39 @@ body{
 
 }
 
+#text {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding-left: 50px; 
+    z-index: 3;
+}
+
 h1,
 h2 {
-    text-align: left ;
+    /* text-align: left ; */
     color: #000000;
     font-size: 64px;
     font-family: 'Tenali Ramakrishna', sans-serif;
-
-
+    line-height: 1;
+    margin: 0;
 }
 
 h1{
-    position: absolute;
+    /* position: absolute;
     width: 318px;
     height: 95px;
-    left: 400px;
+    left: 50%;
     top: 136px;
-    
+    z-index: 3; */
 }
 
 h2{
-    position: absolute;
+    /* position: absolute;
     width: 616px;
     height: 95px;
-    left: 400px;
     top: 183px;
-
+    z-index: 3; */
 }
 
 #backcontainer{
@@ -100,13 +107,17 @@ h4{
     transition: all .7s ease-in-out;
 }
 
+#shapes {
+    position: relative;
+    z-index: 2;
+}
 
 .vectorshape-1 {
     position: absolute;
     width: 0;
     height:0;
-    left: 335.5px;
-    top: 60px;
+    left: 0;
+    top: 0px;
     border-top: 472.5px solid #FFFFFF;
     border-right: 752px solid transparent;
     transition: all .7s ease-in;
@@ -116,8 +127,8 @@ h4{
     position: absolute;
     width: 0;
     height:0;
-    left: 335.5px;
-    top: 65px;
+    left: 0;
+    top: 0;
     border-bottom: 467.5px solid #000000;
     border-right: 753px solid transparent;
     transition: all .7s ease-in;
