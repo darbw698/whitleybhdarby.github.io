@@ -1,0 +1,58 @@
+#toy-body {
+    position: absolute;
+    width: 673px;
+    height: 678px;  
+    left: 350px;
+    background: #BD1414;
+    border-radius: 60px;
+}
+
+.screen span {
+    position: absolute;
+    width: 565px;
+    height: 437px;
+    left: 56px;
+    top: 40px;
+    background: #ECECEC;
+    border-radius: 43px;
+}
+
+.right-knob span {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 458px;
+    top: 512px;
+    background: #DFDADA;
+    border-radius: 75px;
+}
+
+.left-knob span {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 78px;
+    top: 515px;
+    background: #DFDADA;
+    border-radius: 75px;
+}
+
+.inside-right-knob span {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 476px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 75px;
+}
+
+.inside-left-knob span {
+    position: absolute;
+    width: 96px;
+    height: 98px;
+    left: 97px;
+    top: 533px;
+    background: #FFFFFF;
+    border-radius: 75px;
+}
