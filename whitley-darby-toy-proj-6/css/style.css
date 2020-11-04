@@ -8,13 +8,34 @@
 }
 
 .screen span {
-    position: absolute;
+    /* position: absolute;
     width: 565px;
     height: 437px;
     left: 56px;
     top: 40px;
     background: #ECECEC;
-    border-radius: 43px;
+    border-radius: 43px; */
+}
+
+.screen {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr)
+}
+
+.square {
+    background: grey;
+}
+
+.black {
+    background: black;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.square[data-hovered="false"] {
+    background: grey;
 }
 
 .right-knob span {
@@ -65,7 +86,7 @@
     width: 635px;
     height: 475px;
     display: inline-grid;
-    grid-template-columns: repeat(16, 2fr);
-    grid-template-rows: repeat(16, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
     border-radius: 43px;
 }
