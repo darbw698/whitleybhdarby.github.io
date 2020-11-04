@@ -56,3 +56,16 @@
     background: #FFFFFF;
     border-radius: 75px;
 }
+
+.grid-container {
+    margin-top: 25px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-bottom: 95px;
+    width: 635px;
+    height: 475px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border-radius: 43px;
+}
