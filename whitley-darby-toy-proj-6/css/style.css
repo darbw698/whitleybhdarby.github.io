@@ -95,12 +95,5 @@ button {
 }
 
 
-.shake{
-	display:inline-block;
-	-webkit-transform-origin:center center;
-	-ms-transform-origin:center center;
-	transform-origin:center center
-}
-
 
 

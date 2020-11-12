@@ -13,18 +13,17 @@ window.addEventListener("load",function() {
 
         
     });
-    
-	$('button').click(function(){
-		$('#toy-body').addClass("shake shake-constant shake-slow");
-		setTimeout(function(){
-			$('#toy-body').removeClass("shake shake-constant shake-slow");
-		}, 1200);
-		$('.grid-container').empty();
-	});
 
-	$('#shake').click(function(){
-        buildEtch(size);
-    });
+    // function removeElement(square) {
+    //     if (document.getElementById)
+    //     square.dataset.hovered = true;
+    // }
+
+    // squares.forEach(function(square) {
+    //     square.addEventListener('click', remove);
+
+
+    
 
 
 })
