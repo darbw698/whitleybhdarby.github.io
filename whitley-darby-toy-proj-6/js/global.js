@@ -10,9 +10,21 @@ window.addEventListener("load",function() {
 
     squares.forEach(function(square) {
         square.addEventListener('mouseover', changeColor);
+
+        
     });
     
-	
+	$('button').click(function(){
+		$('#toy-body').addClass("shake shake-constant shake-slow");
+		setTimeout(function(){
+			$('#toy-body').removeClass("shake shake-constant shake-slow");
+		}, 1200);
+		$('.grid-container').empty();
+	});
+
+	$('#shake').click(function(){
+        buildEtch(size);
+    });
 
 
 })

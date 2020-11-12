@@ -83,3 +83,24 @@
     border-radius: 75px;
 }
 
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: lavenderblush ;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+
+.shake{
+	display:inline-block;
+	-webkit-transform-origin:center center;
+	-ms-transform-origin:center center;
+	transform-origin:center center
+}
+
+
+
