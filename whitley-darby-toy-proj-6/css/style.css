@@ -1,3 +1,7 @@
+body {
+   background-color: rgb(215, 216, 173);
+}
+
 #toy-body {
     position: absolute;
     width: 673px;
@@ -94,6 +98,37 @@ button {
     border-radius: 7px;
 }
 
+#instructions {
+    background-color: rgb(215, 216, 173);
+    position: absolute;
+    width: 300px;
+    height: 98px;
+    left: 41px;
+    top: 135px;
+}
 
+h1 {
+    color: maroon;
+    font-size: 44px;
+    margin: auto;
+}
+
+#instructions p {
+    font-size: 20px;
+}
+
+#why-you-can-not-draw-what-you-want {
+    background-color: rgb(215, 216, 173);
+    position: absolute;
+    width: 300px;s
+    height: 98px;
+    left: 1070px;
+    top: 590px;
+
+}
+
+#why-you-can-not-draw-what-you-want p {
+    font-size: 10px;
+}
 
 

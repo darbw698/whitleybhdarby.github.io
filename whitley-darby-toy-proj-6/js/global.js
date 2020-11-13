@@ -13,15 +13,22 @@ window.addEventListener("load",function() {
 
         
     });
+    
+    function removeAllElements(){
+        squares.forEach(function(square) {
+            removeElement(square)
+        });
+    }
 
-    // function removeElement(square) {
-    //     if (document.getElementById)
-    //     square.dataset.hovered = true;
-    // }
+    function removeElement(square) {
+        square.dataset.hovered = false;
+    }
 
-    // squares.forEach(function(square) {
-    //     square.addEventListener('click', remove);
+    var erase = document.getElementById("erase");
+    erase.addEventListener('click',removeAllElements);
 
+   
+    
 
     
 
