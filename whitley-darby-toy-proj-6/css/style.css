@@ -120,7 +120,7 @@ h1 {
 #why-you-can-not-draw-what-you-want {
     background-color: rgb(215, 216, 173);
     position: absolute;
-    width: 300px;s
+    width: 300px;
     height: 98px;
     left: 1070px;
     top: 590px;
@@ -131,4 +131,85 @@ h1 {
     font-size: 10px;
 }
 
+/* mobile */
+@media (max-width: 375px) {
+    #toy-body {
+        position: absolute;
+        width: 629px;
+        height: 678px; 
+        top: 322px; 
+        left: 11px;
+        background: #BD1414;
+        border-radius: 60px;
+    }
+    .grid-container {
+        margin-top: 38px;
+        margin-right: 70px;
+        margin-left: 23px;
+        margin-bottom: 82px;
+        width: 583px;
+        height: 475px;
+        display: inline-grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+
+    .right-knob span {
+        position: absolute;
+        width: 133px;
+        height: 133px;
+        left: 449px;
+        top: 527px;
+        background: #DFDADA;
+        border-radius: 75px;
+    }
+    
+    .left-knob span {
+        position: absolute;
+        width: 133px;
+        height: 133px;
+        left: 64px;
+        top: 527px;
+        background: #DFDADA;
+        border-radius: 75px;
+    }
+    
+    .inside-right-knob span {
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        left: 467px;
+        top: 545px;
+        background: #FFFFFF;
+        border-radius: 75px;
+    }
+    
+    .inside-left-knob span {
+        position: absolute;
+        width: 96px;
+        height: 98px;
+        left: 83px;
+        top: 544px;
+        background: #FFFFFF;
+        border-radius: 75px;
+    }
+
+    #instructions {
+        background-color: rgb(215, 216, 173);
+        position: absolute;
+        width: 414px;
+        height: 98px;
+        left: 141px;
+        top: 87px;
+    }
+    #why-you-can-not-draw-what-you-want {
+        background-color: rgb(215, 216, 173);
+        position: absolute;
+        width: 300px;
+        height: 98px;
+        left: 172px;
+        top: 1030px;
+    
+    }
+}
 
