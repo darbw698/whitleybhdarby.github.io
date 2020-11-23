@@ -1,0 +1,13 @@
+button {
+    display: block;
+    margin: auto;
+    margin-top: 360px;
+    padding: 15px;
+    background-color: rgb(112, 194, 173) ;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+a {
+    text-decoration: none;
+}
