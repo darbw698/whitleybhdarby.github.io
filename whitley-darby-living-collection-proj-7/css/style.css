@@ -1,14 +1,26 @@
-button {
-    display: block;
-    margin: auto;
-    margin-top: 360px;
-    padding: 15px;
-    background-color: rgb(112, 194, 173) ;
-    font-size: 20px;
-    border-radius: 35px;
+body{
+    background-color:rgb(159, 207, 211);
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.322);
+    color: #f1f1f1;
+    width: 100%;
+  }
+
+header{
+    font-size: 36px;
+    margin: 6px;
 }
 
-a {
+.content p {
+    font-size: 19px;
+    margin: 12px;
+}
+
+a { 
     text-decoration: none;
 }
 
@@ -50,4 +62,24 @@ p {
 
 .background-info-1 {
 
+}
+
+#home-video {
+    position: fixed;
+    right: -278px;
+    bottom: -243px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#first-piece {
+    position: relative;
+    top: 20px;
+    left: 9px;
+}
+
+#second-piece {
+    position: relative;
+    top: 95px;
+    left: 9px;
 }
