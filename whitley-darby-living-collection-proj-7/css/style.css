@@ -74,12 +74,55 @@ p {
 
 #first-piece {
     position: relative;
-    top: 20px;
+    top: 79px;
     left: 9px;
 }
 
 #second-piece {
     position: relative;
-    top: 95px;
+    top: 93px;
     left: 9px;
+}
+
+#third-piece {
+    position: relative;
+    top: 105px;
+    left: 9px;
+}
+
+#forth-piece {
+    position: relative;
+    top: 125px;
+    left: 9px;
+}
+
+#fifth-piece {
+    position: relative;
+    top: 146px;
+    left: 9px;
+}
+
+
+#first-piece p {
+    position: absolute;
+    font-size: 25px;
+    top: 139px;
+    left: 1068px;
+    right: 32px;
+}
+
+#second-piece p {
+    position: absolute;
+    font-size: 25px;
+    top: 139px;
+    left: 1068px;
+    right: 32px;
+}
+
+#third-piece p {
+    position: absolute;
+    font-size: 25px;
+    top: 139px;
+    left: 1068px;
+    right: 32px;
 }
