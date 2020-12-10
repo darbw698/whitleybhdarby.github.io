@@ -48,6 +48,11 @@ nav {
     font-size: 31px;
     margin: 6px;
 }
+#image-of-myself  {
+    position: relative;
+    top: 46px;
+    left: 9px;
+}
 
 #bio {
     position: absolute;
@@ -60,9 +65,6 @@ p {
     font-size: 36px;
 }
 
-.background-info-1 {
-
-}
 
 #home-video {
     position: fixed;
@@ -92,14 +94,16 @@ p {
 
 #forth-piece {
     position: relative;
+    margin-right: 65%;
     top: 125px;
-    left: 9px;
+    right: -796px;
 }
 
 #fifth-piece {
     position: relative;
+    margin-right: 65%;
     top: 146px;
-    left: 9px;
+    right: -796px;
 }
 
 
@@ -125,4 +129,232 @@ p {
     top: 139px;
     left: 1068px;
     right: 32px;
+}
+
+#forth-piece p {
+    position: absolute;
+    font-size: 25px;
+    top: 200px;
+    left: -700px;
+    right: 550px;
+}
+
+#fifth-piece p {
+    position: absolute;
+    font-size: 25px;
+    top: 200px;
+    left: -700px;
+    right: 576px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    #home-video {
+        object-fit: fill;
+        position: fixed;
+        right: -687px;
+        bottom: -14px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    #about-me {
+        width: 37px;
+        height: 80%;
+        font-size: 31px;
+        margin: 6px;
+    }
+    
+    #image-of-myself  {
+        position: relative;
+        top: 46px;
+        left: 165px;
+    }
+    
+    #bio {
+        position: absolute;
+        top: 639px;
+        left: 8px;
+        right: -217px;
+    }
+
+    #first-piece {
+        position: relative;
+        top: 79px;
+        left: 9px;
+    }
+    
+    #second-piece {
+        position: relative;
+        top: 93px;
+        left: 9px;
+    }
+    
+    #third-piece {
+        position: relative;
+        top: 105px;
+        left: 9px;
+    }
+    
+    #forth-piece {
+        position: relative;
+        margin-right: 65%;
+        top: 125px;
+        right: -715px;
+    }
+    
+    #fifth-piece {
+        position: relative;
+        margin-right: 65%;
+        top: 146px;
+        right: -553px;
+    }
+    
+    
+    #first-piece p {
+        position: absolute;
+        font-size: 25px;
+        top: 24px;
+        left: 602px;
+        right: -174px;
+    }
+    
+    #second-piece p {
+        position: absolute;
+        font-size: 25px;
+        top: -20px;
+        left: 602px;
+        right: -212px;
+    }
+    
+    #third-piece p {
+        position: absolute;
+        font-size: 25px;
+        top: -18px;
+        left: 602px;
+        right: -211px;
+    }
+    
+    #forth-piece p {
+        position: absolute;
+        font-size: 25px;
+        top: 50px;
+        left: -590px;
+        right: 347px;
+    }
+    
+    #fifth-piece p {
+        position: absolute;
+        font-size: 25px;
+        top: 200px;
+        left: -501px;
+        right: 302px;
+    }
+}
+
+
+
+/* mobile */
+@media (max-width: 375px) {
+       #home-video {
+        position: fixed;
+        right: -417px;
+        bottom: -76px;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    #about-me {
+        width: 37px;
+        height: 80%;
+        font-size: 31px;
+        margin: 6px;
+    }
+
+    #image-of-myself  {
+        position: relative;
+        top: 46px;
+        left: -14px;
+    }
+    
+    #bio {
+        position: absolute;
+        top: 639px;
+        left: 8px;
+        right: -217px;
+    }
+
+    #first-piece {
+        position: relative;
+        top: 47px;
+        left: 62px;
+    }
+    
+    #second-piece {
+        position: relative;
+        top: 133px;
+        left: 62px;
+    }
+    
+    #third-piece {
+        position: relative;
+        top: 264px;
+        left: 62px;
+    }
+    
+    #forth-piece {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        top: 432px;
+        left: 62px;
+    }
+    
+    #fifth-piece {
+        position: relative;
+        margin-right: 232%;
+        top: 499px;
+        left: -9px;
+    }
+    
+    
+    #first-piece p {
+        position: absolute;
+        font-size: 14px;
+        top: 126px;
+        left: 5px;
+        right: 90px;
+    }
+    
+    #second-piece p {
+        position: absolute;
+        font-size: 14px;
+        top: 128px;
+        left: 5px;
+        right: 90px;
+    }
+    
+    #third-piece p {
+        position: absolute;
+        font-size: 14px;
+        top: 131px;
+        left: 5px;
+        right: 90px;
+    }
+    
+    #forth-piece p {
+        position: absolute;
+        font-size: 14px;
+        top: -19px;
+        left: 136px;
+        right: -138px;
+    }
+    
+    #fifth-piece p {
+        position: absolute;
+        font-size: 14px;
+        top: 598px;
+        left: 7px;
+        right: -428px;
+    }
 }
